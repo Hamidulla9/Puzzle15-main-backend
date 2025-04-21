@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 import os
 from pathlib import Path
 
+from django.core.wsgi import get_wsgi_application
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -27,6 +29,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['95.46.96.138', 'puzzlebackend.digitallaboratory.uz']
 
+application = get_wsgi_application()
 
 # Application definition
 
