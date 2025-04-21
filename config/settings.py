@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-6tz532n^ck1+muj6#2t***)7#z32a0pod(wqn8b-u+_%zyf+i7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['95.46.96.138', 'puzzlebackend.digitallaboratory.uz']
 
 
 # Application definition
