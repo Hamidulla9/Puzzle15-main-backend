@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-6tz532n^ck1+muj6#2t***)7#z32a0pod(wqn8b-u+_%zyf+i7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['95.46.96.138', 'puzzlebackend.digitallaboratory.uz']
+ALLOWED_HOSTS = ['puzzlebackend.digitallaboratory.uz', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -129,3 +129,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+## 1
