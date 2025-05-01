@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-6tz532n^ck1+muj6#2t***)7#z32a0pod(wqn8b-u+_%zyf+i7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["puzzlebackend.digitallaboratory.uz"]
+ALLOWED_HOSTS = ["puzzlebackend.digitallaboratory.uz", '127.0.0.1', 'localhost']
 #///
 
 # Application definition
